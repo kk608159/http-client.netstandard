@@ -14,7 +14,7 @@ variables:
 jobs:
 - deployment: start
   continueOnError: false
-  environment: 'dev'
+  environment: 'dev1'
   timeoutInMinutes: 120
   strategy:
     runOnce:
